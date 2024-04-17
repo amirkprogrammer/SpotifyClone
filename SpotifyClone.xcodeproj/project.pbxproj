@@ -19,6 +19,7 @@
 		991A20632BCF6DD000B4778D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A20622BCF6DD000B4778D /* User.swift */; };
 		991A20662BCF6F6500B4778D /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = 991A20652BCF6F6500B4778D /* SwiftfulUI */; };
 		991A20692BCF6F7800B4778D /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = 991A20682BCF6F7800B4778D /* SwiftfulRouting */; };
+		991A206E2BCF801A00B4778D /* SpotifyHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A206D2BCF801A00B4778D /* SpotifyHomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		991A205E2BCF6B9700B4778D /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 		991A20602BCF6DB500B4778D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		991A20622BCF6DD000B4778D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		991A206D2BCF801A00B4778D /* SpotifyHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyHomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				991A20482BCF691300B4778D /* SpotifyCloneApp.swift */,
+				991A206A2BCF7FFB00B4778D /* Spotify */,
 				991A204A2BCF691300B4778D /* ContentView.swift */,
 				991A20592BCF695C00B4778D /* Shared */,
 				991A204C2BCF691400B4778D /* Assets.xcassets */,
@@ -94,6 +97,30 @@
 				991A205E2BCF6B9700B4778D /* DatabaseHelper.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		991A206A2BCF7FFB00B4778D /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				991A206C2BCF800700B4778D /* Components */,
+				991A206B2BCF800400B4778D /* Core */,
+			);
+			path = Spotify;
+			sourceTree = "<group>";
+		};
+		991A206B2BCF800400B4778D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				991A206D2BCF801A00B4778D /* SpotifyHomeView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		991A206C2BCF800700B4778D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +205,7 @@
 			files = (
 				991A205B2BCF696D00B4778D /* ImageLoaderView.swift in Sources */,
 				991A205F2BCF6B9700B4778D /* DatabaseHelper.swift in Sources */,
+				991A206E2BCF801A00B4778D /* SpotifyHomeView.swift in Sources */,
 				991A204B2BCF691300B4778D /* ContentView.swift in Sources */,
 				991A20492BCF691300B4778D /* SpotifyCloneApp.swift in Sources */,
 				991A205D2BCF6A5000B4778D /* Constants.swift in Sources */,
