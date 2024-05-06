@@ -113,6 +113,9 @@ struct SpotifyHomeView: View {
                         imageName: product.firstImage,
                         title: product.title
                     )
+                    .asButton(.press) {
+                        
+                    }
                 }
             }
     }
@@ -147,6 +150,9 @@ struct SpotifyHomeView: View {
                                 imageName: product.firstImage,
                                 title: product.title
                             )
+                            .asButton(.press) {
+                                
+                            }
                         }
                     }
                     .padding(.horizontal, 16)
